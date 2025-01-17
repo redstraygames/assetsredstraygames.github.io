@@ -3,7 +3,7 @@ import React from "react";
 export function Footer() {
     return (
       <footer className="flex place-content-around bg-black p-4">
-        <h1 className="font-roboto text-white">© 2025 All rights reserved.</h1>
+        <h1 className="font-roboto text-white">© 2025 Red Stray Games. All rights reserved.</h1>
       </footer>
     );
   }

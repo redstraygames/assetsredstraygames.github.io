@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        impact: ['Impact', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
+      colors: {
+        customRed: '#e30505', // Define your custom red color
+      },
+    },
   },
   plugins: [],
 }
